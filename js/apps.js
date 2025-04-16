@@ -10,11 +10,11 @@ versions.v1 = {
 	bonusloopA: false, // ← It makes bonus start on loop A, if its false, bonus will start after 1 loop
 	bonusendloopA: true,
 	colBck: "#2D1642",
-	col0: "#919191",
-	col1: "#5f5f5f",
-	col2: "#4b4b4b",
-	col3: "#373737",
-	col4: "#232323",
+	col0: "#573C6A",
+	col1: "#422758",
+	col2: "#2E1642",
+	col3: "#241036",
+	col4: "#170723",
 	animearray: [{
 		name: "1_bloco",
 		color: "3C60D8",
