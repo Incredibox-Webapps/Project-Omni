@@ -2,12 +2,12 @@ versions.v1 = {
 	name: "Augury",
 	version: "Omni Augury",
 	date: "2024",
-	folder: "asset-v1/", // ← If you are adding more versions, make sure follder is correct, for example "asset-v2/" for v2
+	folder: "asset-v1/",
 	looptime: 6400,
 	bpm: 150,
 	totalframe: 350,
 	nbpolo: 7,
-	bonusloopA: false, // ← It makes bonus start on loop A, if its false, bonus will start after 1 loop
+	bonusloopA: false,
 	bonusendloopA: true,
 	colBck: "#2D1642",
 	col0: "#573C6A",
@@ -98,7 +98,7 @@ versions.v1 = {
 	}, ],
 	bonusarray: [{
 		name: "Wake",
-		src: "v1-b1-wake-hb.mp4",
+		src: "v1-b1-wake-hb",
 		code: "1,3,6,15,19",
 		sound: "21_wake",
 		aspire: "aspire_wake",
