@@ -1,135 +1,109 @@
-// Here all versions are located, the same as app.js but this time its apps.js because all versions info is located in this one file
-// To add more versions, copy the versions.v1 and replace with versions.v2, and the same with others (it support more than 9 versions)
-
 versions.v1 = {
-  name: "Template",
-  version: "temp01",
-  date: "2025",
-  folder: "asset-v1/", // ← If you are adding more versions, make sure follder is correct, for example "asset-v2/" for v2
-  looptime: 5333,
-  bpm: 90,
-  totalframe: 260,
-  nbpolo: 7,
-  bonusloopA: false, // ← It makes bonus start on loop A, if its false, bonus will start after 1 loop
-  bonusendloopA: true,
-  colBck: "#0F0F0F",
-  col0: "#919191",
-  col1: "#5f5f5f",
-  col2: "#4b4b4b",
-  col3: "#373737",
-  col4: "#232323",
-  animearray: [
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0, // ← !0 means that polo will use only _a audio, if its !1 - it will use _a and _b
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-    {
-      name: "temp_polo",
-      color: "7D7D7D",
-      uniqsnd: !0,
-    },
-  ],
-  bonusarray: [
-    {
-      name: "blank",
-      src: "b1-v1-blank-hb",
-      code: "1,2,3,4,5",
-      sound: "aspire-blank",
-      aspire: "aspire-blank",
-      loop: 1, // ← Every bonus have its own loops in this version
-    },
-  ],
+	name: "Augury",
+	version: "Omni Augury",
+	date: "2024",
+	folder: "asset-v1/", // ← If you are adding more versions, make sure follder is correct, for example "asset-v2/" for v2
+	looptime: 6400,
+	bpm: 150,
+	totalframe: 350,
+	nbpolo: 7,
+	bonusloopA: false, // ← It makes bonus start on loop A, if its false, bonus will start after 1 loop
+	bonusendloopA: true,
+	colBck: "#2D1642",
+	col0: "#919191",
+	col1: "#5f5f5f",
+	col2: "#4b4b4b",
+	col3: "#373737",
+	col4: "#232323",
+	animearray: [{
+		name: "1_bloco",
+		color: "3C60D8",
+		uniqsnd: !1
+	}, {
+		name: "2_screws",
+		color: "3C60D8",
+		uniqsnd: !1
+	}, {
+		name: "3_circuit",
+		color: "3C60D8",
+		uniqsnd: !1
+	}, {
+		name: "4_saul",
+		color: "3C60D8",
+		uniqsnd: !1
+	}, {
+		name: "5_knox",
+		color: "3C60D8",
+		uniqsnd: !0
+	}, {
+		name: "6_bass",
+		color: "A5281E",
+		uniqsnd: !1
+	}, {
+		name: "7_chipy",
+		color: "A5281E",
+		uniqsnd: !1
+	}, {
+		name: "8_cash",
+		color: "A5281E",
+		uniqsnd: !1
+	}, {
+		name: "9_muhan",
+		color: "A5281E",
+		uniqsnd: !1
+	}, {
+		name: "10_bricks",
+		color: "A5281E",
+		uniqsnd: !1
+	}, {
+		name: "11_polno",
+		color: "6F3896",
+		uniqsnd: !1
+	}, {
+		name: "12_siren",
+		color: "6F3896",
+		uniqsnd: !1
+	}, {
+		name: "13_quartz",
+		color: "6F3896",
+		uniqsnd: !0
+	}, {
+		name: "14_blackwood",
+		color: "6F3896",
+		uniqsnd: !1
+	}, {
+		name: "15_potion",
+		color: "6F3896",
+		uniqsnd: !1
+	}, {
+		name: "16_invision",
+		color: "3CAB9E",
+		uniqsnd: !1
+	}, {
+		name: "17_gemdemon",
+		color: "3CAB9E",
+		uniqsnd: !1
+	}, {
+		name: "18_baylor",
+		color: "3CAB9E",
+		uniqsnd: !1
+	}, {
+		name: "19_loan",
+		color: "3CAB9E",
+		uniqsnd: !1
+	}, {
+		name: "20_henry",
+		color: "3CAB9E",
+		uniqsnd: !1
+	}, ],
+	bonusarray: [{
+		name: "Wake",
+		src: "v1-b1-wake-hb.mp4",
+		code: "1,3,6,15,19",
+		sound: "21_wake",
+		aspire: "aspire_wake",
+		loop: 10
+	}, ],
 };
 
 // versions.v2 = {
