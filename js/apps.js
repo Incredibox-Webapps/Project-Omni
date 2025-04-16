@@ -9,7 +9,7 @@ versions.v1 = {
 	nbpolo: 7,
 	bonusloopA: false,
 	bonusendloopA: true,
-	colBck: "#2D1642",
+	colBck: "#2c1742",
 	col0: "#573C6A",
 	col1: "#422758",
 	col2: "#2E1642",
