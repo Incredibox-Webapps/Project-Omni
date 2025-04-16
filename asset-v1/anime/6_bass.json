@@ -4,7 +4,8 @@
 	"totalFrame":"130",
 	"width":"164",
 	"height":"380",
-	"headHeight":"164",
+	"headWidth":"164",
+	"headHeight":"210",
 	"arrayFrame":[
 		{"prop":"0,380,0,-3"},
 		{"prop":"164,380,0,-5"},
